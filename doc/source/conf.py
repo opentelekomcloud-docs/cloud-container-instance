@@ -31,6 +31,17 @@ otcdocs_repo_name = 'docs/cloud-container-instance'
 otcdocs_git_fqdn = 'gitea.eco.tsi-dev.otc-service.com'
 otcdocs_git_type = 'gitea'
 
+# Those variables are needed for indexing into OpenSearch
+otcdocs_doc_environment = ''
+otcdocs_doc_link = ''
+otcdocs_doc_title = ''
+otcdocs_doc_type = ''
+otcdocs_service_category = 'container'
+otcdocs_service_title = 'Cloud Container Instance'
+otcdocs_service_type = 'cci'
+otcdocs_search_environment = 'hc_de'
+otcdocs_search_url = "https://opensearch.eco.tsi-dev.otc-service.com/"
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
