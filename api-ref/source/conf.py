@@ -27,13 +27,11 @@ otcdocs_auto_name = False
 otcdocs_auto_version = False
 
 project = 'Cloud Container Instance'
-otcdocs_repo_name = 'docs/cloud-container-instance'
+otcdocs_repo_name = 'opentelekomcloud-docs/cloud-container-instance'
 # Those variables are required for edit/bug links
-otcdocs_git_fqdn = 'gitea.eco.tsi-dev.otc-service.com'
-otcdocs_git_type = 'gitea'
 
 # Those variables are needed for indexing into OpenSearch
-otcdocs_doc_environment = 'internal'
+otcdocs_doc_environment = 'public'
 otcdocs_doc_link = '/cloud-container-instance/api-ref/'
 otcdocs_doc_title = 'API Reference'
 otcdocs_doc_type = 'api-ref'
@@ -91,9 +89,6 @@ html_theme = 'otcdocs'
 # further. For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-    "disable_search": True,
-    "site_name": "Internal Documentation Portal",
-    "logo_url": "https://docs-int.otc-service.com",
 }
 
 # The name for this set of Sphinx documents.  If None, it defaults to
